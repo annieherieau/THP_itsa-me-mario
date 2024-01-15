@@ -13,7 +13,11 @@ user_yearOfBirth = actual_year-user_age
 numberOfYears = user_age
 
 for year in user_yearOfBirth..actual_year
-    if numberOfYears == age
+    if age ==0
+        puts "#{year} : Il y a #{numberOfYears} ans, tu es né(e)"
+    elsif year == actual_year
+        puts "#{year} : Cette année, tu as #{age} an(s)"
+    elsif numberOfYears == age
             puts "#{year} : Il y a #{numberOfYears} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
     else
         puts "#{year} : Il y a #{numberOfYears} ans, tu avais #{age} an(s)"
