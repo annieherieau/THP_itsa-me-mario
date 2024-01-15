@@ -3,7 +3,7 @@
 actual_year = 2024
 age=0
 
-puts "Quelle est ton année de naissane ?"
+puts "Quelle est ton année de naissance ?"
 print "> "
 user_yearOfBirth = Integer(gets.chomp)
 
