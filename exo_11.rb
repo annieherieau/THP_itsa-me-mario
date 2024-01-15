@@ -11,8 +11,7 @@ user_yearOfBirth = actual_year-user_age
 numberOfYears = user_age
 
 for year in user_yearOfBirth..actual_year
-
-        puts "#{year} : Il y a #{numberOfYears} ans, tu avais #{age} an(s)"
+    puts "#{year} : Il y a #{numberOfYears} ans, tu avais #{age} an(s)"
   
     year +=1
     numberOfYears -=1

@@ -14,7 +14,7 @@ numberOfYears = user_age
 
 for year in user_yearOfBirth..actual_year
     if numberOfYears == age
-            puts "#{year} : Il y a #{numberOfYears} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
+        puts "#{year} : Il y a #{numberOfYears} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
     else
         puts "#{year} : Il y a #{numberOfYears} ans, tu avais #{age} an(s)"
     end
