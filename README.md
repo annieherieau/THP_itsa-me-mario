@@ -1,2 +1,3 @@
-# THP_Big_Corpo_Food
-Projet en équipe : faire un projet sur Github
+# Itsa me, Mario !
+Projet validant : 16/01/2024<br>
+
