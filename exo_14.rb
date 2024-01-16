@@ -15,7 +15,7 @@ user_name.downcase!
 for i in 1..50
 
   # Passer si i est impaire
-  next if i%2!=0
+  next if i.odd?
 
   # formater le compteur avec 2 caractères (padding)
   counter = i.to_s.rjust(2,"0")
