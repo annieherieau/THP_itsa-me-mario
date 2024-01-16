@@ -1,6 +1,4 @@
-
-
-# 2.11. Virer les années
+# 2.12. Annoncer l'âge, option BG
 
 actual_year = 2024
 age = 0
