@@ -1,10 +1,11 @@
 # 2.5. Un programme qui répète
 
 string = "Salut, ça farte ?"
+user_number = -1
 
-puts "Choisis un nombre: "
-print "> "
-number = Integer(gets.chomp)
-
+until user_number > 0 do
+  print "Choisis un nombre positif: "
+  user_number =  gets.chomp.to_i
+end
 # répéter n fois
-number.times{puts string}
+user_number.times{puts string}

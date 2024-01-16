@@ -1,8 +1,7 @@
 # 2.8. Compte à rebours
 
-puts "Choisis un nombre: "
-print "> "
-number = Integer(gets.chomp)
+print "Choisis un nombre: "
+number =  gets.chomp.to_i
 
 i=number
 while i>0 do

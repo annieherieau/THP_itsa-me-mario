@@ -2,9 +2,8 @@
 
 string = "Bonjour toi !"
 
-puts "Choisis un nombre: "
-print "> "
-number = Integer(gets.chomp)
+print "Choisis un nombre > "
+number =  gets.chomp.to_i
 
 #répéter n-1 fois
 (number-1).times {puts string}
