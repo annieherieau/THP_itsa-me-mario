@@ -1,7 +1,6 @@
 # 2.8. Compte à rebours
 
-puts "Choisis un nombre: "
-print "> "
+print "Choisis un nombre: "
 number =  gets.chomp.to_i
 
 i=number

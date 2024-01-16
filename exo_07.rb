@@ -1,10 +1,7 @@
 # 2.7. Compter
 
-puts "Choisis un nombre: "
-print "> "
+print "Choisis un nombre: "
 number =  gets.chomp.to_i
 
 # compter jusqu'à n
-for i in 1..number
-    puts i
-end
+(1..number).each {|i| puts i}

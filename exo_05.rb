@@ -4,8 +4,7 @@ string = "Salut, ça farte ?"
 user_number = -1
 
 until user_number > 0 do
-  puts "Choisis un nombre positif: "
-  print "> "
+  print "Choisis un nombre positif: "
   user_number =  gets.chomp.to_i
 end
 # répéter n fois

@@ -4,8 +4,7 @@ target_year = 2017
 user_year_of_birth =""
 
 while user_year_of_birth == ""
-  puts "Quelle est ton année de naissance ?"
-  print "> "
+  print "Quelle est ton année de naissance ? "
   user_year_of_birth =  gets.chomp.to_i
 end
 

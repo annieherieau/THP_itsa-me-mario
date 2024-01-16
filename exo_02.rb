@@ -1,5 +1,4 @@
 # 2.2. Un programme qui dit bonjour
-puts "Quel est ton prénom ?"
-print "> "
+print  "Quel est ton prénom ? "
 user_firstname = gets.chomp
 puts "Bonjour #{user_firstname} !"
