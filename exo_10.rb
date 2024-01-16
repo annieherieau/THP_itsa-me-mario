@@ -5,7 +5,7 @@ age=0
 
 puts "Quelle est ton année de naissane ?"
 print "> "
-user_yearOfBirth = Integer(gets.chomp)
+user_yearOfBirth =  gets.chomp.to_i
 
 for i in user_yearOfBirth..actual_year
     puts "#{i} : #{age} an(s)"

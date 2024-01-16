@@ -6,7 +6,7 @@ while user_number < 1 || user_number > 25
   puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
   puts "Entrez un nombre entre 1 et 25 :"
   print "> "
-  user_number = Integer(gets.chomp)
+  user_number = gets.chomp.to_i
 end
 
 puts "Voici la pyramide :"

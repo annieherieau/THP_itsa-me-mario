@@ -5,7 +5,7 @@ age = 0
 
 puts "Quel âge as-tu ?"
 print "> "
-user_age = Integer(gets.chomp)
+user_age = gets.chomp.to_i
 
 user_yearOfBirth = actual_year-user_age
 numberOfYears = user_age

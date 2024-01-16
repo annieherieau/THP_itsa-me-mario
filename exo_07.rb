@@ -2,7 +2,7 @@
 
 puts "Choisis un nombre: "
 print "> "
-number = Integer(gets.chomp)
+number =  gets.chomp.to_i
 
 # compter jusqu'à n
 for i in 1..number

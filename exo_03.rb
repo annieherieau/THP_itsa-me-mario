@@ -4,7 +4,7 @@ target_year = 2017
 
 puts "Quelle est ton année de naissance ?"
 print "> "
-user_year_of_birth = Integer(gets.chomp)
+user_year_of_birth =  gets.chomp.to_i
 
 print "En #{target_year}, " 
 # donner l'âge si user est né avant target_year

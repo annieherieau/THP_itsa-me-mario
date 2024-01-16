@@ -2,7 +2,7 @@
 
 puts "Choisis un nombre: "
 print "> "
-number = Integer(gets.chomp)
+number =  gets.chomp.to_i
 
 i=number
 while i>0 do
