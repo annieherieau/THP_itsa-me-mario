@@ -6,6 +6,5 @@ puts "Choisis un nombre: "
 print "> "
 number = Integer(gets.chomp)
 
-number.times{
-    puts string
-}
+# répéter n fois
+number.times{puts string}

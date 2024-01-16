@@ -1,24 +1,31 @@
 # 2.14. Afficher les bons emails
 
-emails_array=[]
+email_list=[]
 
 puts "Votre prénom ?"
 print "> "
 user_fname = gets.chomp
+# mettre en minuscule
 user_fname.downcase!
 
 puts "Votre nom ?"
 print "> "
 user_name = gets.chomp
+# mettre en minuscule
 user_name.downcase!
 
 for i in 1..50
-  # si i est impaire, passer
-  if i%2 !=0
-    next
-  end
-  # formater le compteur avec 2 carct
+
+  # Passer si i est impaire
+  next if i%2!=0
+
+  # formater le compteur avec 2 caractères (padding)
   counter = i.to_s.rjust(2,"0")
-  emails_array.push("#{user_fname}.#{user_name}.#{counter}@email.fr")
+  #formater l'émail
+  email = "#{user_fname}.#{user_name}.#{counter}@email.fr"
+  # ajouter l'email dans le tableau
+  email_list.push(email)
 end
-puts emails_array
+
+# afficher la liste d'email
+puts email_list
